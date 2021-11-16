@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    background: #fafafa;
+}
+
+.barra-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+    background: rgb(52, 53, 54);
+    color: white;
+}
+
+/* Barra de navegación */
+.barra-nav {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.barra-nav ul {
+    display: flex;
+}
+
+.barra-nav ul li a {
+    padding: 3px;
+}
+/* Resalta el elemento bajo el cursor */
+.barra-nav ul li a:hover {
+    border-bottom: 2px solid white;
+
+}
+
+.barra-nav ul li {
+    padding: 25px;
+}
+
+/* Configuración contenido principal */
+.con-prin {
+    margin: auto;
+    width: 90%;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.main a {
+    text-decoration: none;
+    color: black;
+}
+
+.texto {
+    margin-top: 30px;
+    height: 125px;
+    text-align: center;
+}
+
+.ifone {
+    display: block;
+    text-align: center;
+}
+
+.ifone img {
+    width: 65%;
+}
+
+.futuro {
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    background: url(https://cdn.glitch.me/193d0779-270d-42fe-b974-25b5b165d696%2Ffons.webp?v=1635500850484);
+    height: 200px;
+}
+.patron {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.patron h2 {
+    padding-bottom: 20px;
+    padding-top: 12px;
+}
+
+.boton {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+  /* Bordes redondeados */
+    border-radius: 18px;
+}
+
